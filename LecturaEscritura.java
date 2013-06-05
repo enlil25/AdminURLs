@@ -271,39 +271,8 @@ public class LecturaEscritura
 	
 	public static void main(String args[])
 	{
-		Url url=new Url();
-		url.setAutor("jose");
-		url.setCategoria("informatica");
-		url.setDireccion("http://www.java2s.com");
-		url.setPopularidad("50%");
-		url.setTiempo("1 año");
-		
-	    Url url2=new Url();
-		url2.setAutor("andres");
-		url2.setCategoria("programacion");
-		url2.setDireccion("http://www.oracle.com");
-		url2.setPopularidad("90%");
-		url2.setTiempo("5 años");
-		
-		Url url3=new Url();
-		url3.setAutor("anonimo");
-		url3.setCategoria("Juegos");
-		url3.setDireccion("http://www.javazone.com.pe");
-		url3.setPopularidad("40%");
-		url3.setTiempo("1.5 año");	
-		
-		OperacionesArchivo of=new OperacionesArchivo();
-		of.insertRegister(url);
-		of.insertRegister(url2);
-		of.insertRegister(url3);	
-		LecturaEscritura obj=new LecturaEscritura(of);
-		obj.writeFile();
-		
-		//se lee el archivo
-		LecturaEscritura.leerArchivo(Config.getPath());
-	
-			
-	}
+				
+	 }
 	
 	public static void leerArchivo(String path)
 	{
