@@ -267,13 +267,6 @@ public class LecturaEscritura
 	
 
 	
-	
-	
-	public static void main(String args[])
-	{
-				
-	 }
-	
 	public static void leerArchivo(String path)
 	{
 		ObjectInputStream ois=null;
